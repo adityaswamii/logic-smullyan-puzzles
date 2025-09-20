@@ -1,4 +1,3 @@
-; Puzzle 1.1
 ; A says: "We are both Knaves."
 
 (declare-const A Bool)
