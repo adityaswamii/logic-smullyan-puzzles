@@ -10,3 +10,18 @@
 
 (check-sat)
 (get-model)
+
+
+(assert (not (and (= Boils false) (= Watched false))))
+(check-sat)
+(get-model)
+
+(assert (not (and (= Boils false) (= Watched true))))
+(check-sat)
+(get-model)
+
+(assert (not (and (= Boils true) (= Watched true))))
+(check-sat)
+(get-model)
+
+

@@ -10,7 +10,6 @@
 ; Statement spoken by A: If I am a knight, then so is B.
 (define-fun stmtA () Bool (=> (= A Knight) (= B Knight)))
 
-; Knight/Knave rules for A
 (assert (=> (= A Knight) stmtA))
 (assert (=> (= A Knave) (not stmtA)))
 

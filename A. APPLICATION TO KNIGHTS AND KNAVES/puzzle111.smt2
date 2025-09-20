@@ -12,4 +12,3 @@
 
 (check-sat)
 (get-model)
-
